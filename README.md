@@ -5,7 +5,9 @@
 Welcome to Ezen Bank! Here you'll find all the documentation you need to get up and running with the Ezen Bank API.
 
 {% hint style="info" %}
-**Good to know:** This document is more readily _available on the web:_ [https://20230601sy.gitbook.io/1116\_backend/](https://20230601sy.gitbook.io/1020\_backend/)
+**Good to know:** This document is more readily _available on the web:_
+
+[https://20230601sy.gitbook.io/1116\_backend/](https://20230601sy.gitbook.io/1116\_backend/)
 {% endhint %}
 
 ## Want to jump right in?
