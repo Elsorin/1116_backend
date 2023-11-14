@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Getting Started with STS](README.md)
+* [Welcome!](<README (1).md>)
 * [Quick Start](quick-start.md)
 
 ## Reference
