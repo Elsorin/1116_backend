@@ -1,8 +1,8 @@
-# Users
+# Account
 
-## Creating a new user
+## Creating a new account
 
-{% swagger baseUrl="https://port-0-backend1116-ysl2bloxx9az2.sel5.cloudtype.app" method="post" path="/user" summary="Create user." %}
+{% swagger baseUrl="https://port-0-backend1116-ysl2bloxx9az2.sel5.cloudtype.app" method="post" path="/account" summary="Create user." %}
 {% swagger-description %}
 Creates a new user.
 {% endswagger-description %}
@@ -41,7 +41,15 @@ The breed of the pet
 {% endswagger-response %}
 {% endswagger %}
 
+## Reading a account
+
 ## Updating a user
+
+{% swagger method="put" path="/account" baseUrl="https://port-0-backend1116-ysl2bloxx9az2.sel5.cloudtype.app" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+{% endswagger %}
 
 ## Deleting a user
 

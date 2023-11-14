@@ -1,6 +1,6 @@
-# Users
+# Qna
 
-## Creating a new user
+## Creating a new qna
 
 {% swagger baseUrl="https://port-0-backend1116-ysl2bloxx9az2.sel5.cloudtype.app" method="post" path="/user" summary="Create user." %}
 {% swagger-description %}
