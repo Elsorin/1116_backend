@@ -56,8 +56,8 @@ public class TransactionService {
 		Account accountFrom = accountRepository.findById(accountToId).get();
 		accountFrom.setBalance(accountFrom.getBalance() + transaction.getMoney());
 		
-		Transaction transactionFrom = new Transaction(accountFrom, -transaction.getMoney(), accountTo.getUser().getFname(), transaction.getMemo()); 
-		Transaction transactionTo = new Transaction(accountTo, transaction.getMoney(), accountFrom.getUser().getFname(), null);
+		Transaction transactionFrom = new Transaction(accountFrom, -transaction.getMoney(), accountTo.getUser().getFname(), null); 
+		Transaction transactionTo = new Transaction(accountTo, transaction.getMoney(), accountFrom.getUser().getFname(), transaction.getMemo());
 		transactionRepository.save(transactionFrom);
 		transactionRepository.save(transactionTo);
 		return 200;
