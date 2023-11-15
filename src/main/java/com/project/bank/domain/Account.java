@@ -49,7 +49,7 @@ public class Account {
 	
 	@JsonManagedReference
 	@OneToMany(mappedBy = "account", fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
-	@OrderBy("id desc")
+	@OrderBy("id asc")
 	private List<Transaction> transactionList; // 거래
 	
 	public boolean isOpen() {
