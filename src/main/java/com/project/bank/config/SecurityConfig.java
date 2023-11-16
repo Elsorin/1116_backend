@@ -80,7 +80,7 @@ public class SecurityConfig {
 	CorsConfigurationSource configurationSource() {
 		CorsConfiguration config = new CorsConfiguration();
 		config.addAllowedOrigin("http://localhost:3000");
-		config.addAllowedOrigin("https://project-3204811911975252544.web.app");
+		config.addAllowedOrigin("https://project-6323046024167247165.web.app/");
 		
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		source.registerCorsConfiguration("/**", config);
